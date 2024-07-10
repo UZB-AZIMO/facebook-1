@@ -164,7 +164,7 @@ font-size: 14px;
     color: rgba(0, 0, 255, 0.764);
     font-size: 48px;
     font-weight:700;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 
@@ -173,7 +173,7 @@ font-size: 14px;
     border: 2px solid #ddddddcc;
     margin: auto;
     width: 35%;
-    height: 600px;
+    height: 660px;
     background-color: white;
     padding: 10px;
 }
@@ -190,7 +190,7 @@ font-size: 14px;
 }
 .input{
     height: 40px;
-    padding: 10px;
+    padding: 0 15px;
     border-radius: 10px;
     border: 1px solid #ddd;
     font-size: 16px;
@@ -201,16 +201,38 @@ font-size: 14px;
 .int{
     width: 100%;
     height: 40px;
-    border-radius: 10px;
+    border-radius:5px;
     outline: none;
     font-size: 16px;
     margin-top: 10px;
     border: 1px solid #ddd;
+    padding: 0 15px;
+}
+
+.gender{
+    margin-top: 10px;
     padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    width: 45%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 16px;
 }
 
 
-
+.room__btn{
+    padding: 10px;
+    border: none;
+    width: 80%;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(4, 189, 4);
+    border-radius: 10px;
+}
 
 
 
